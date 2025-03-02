@@ -21,8 +21,12 @@
     padding: 0;
     margin: 0;
 }
+Head{
+    background-color: red;
+    height: 100px;
+}
 
-context{
+cont{
     font-size: 30px ;
     background-color: white;
 
