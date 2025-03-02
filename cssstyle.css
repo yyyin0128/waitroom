@@ -26,8 +26,9 @@ Head{
     height: 100px;
 }
 
-cont{
+context{
     font-size: 30px ;
     background-color: white;
+    border: 20px white;
 
 }
