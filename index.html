@@ -1,19 +1,67 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="zh">
 <head>
     <meta charset="UTF-8">
-    <title>YouTube等待中</title>
-    <link rel="stylesheet" href="cssstyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>等待頁面</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+        .left, .right {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .left {
+            background-color: #fff;
+        }
+        .left h1 {
+            font-size: 24px;
+            color: #000;
+            margin-bottom: 20px;
+        }
+        .left img {
+            width: 80%;
+            max-width: 300px;
+        }
+        .right {
+            background-color: #ff0000;
+            color: #fff;
+            text-align: center;
+        }
+        .right img {
+            width: 60%;
+            max-width: 250px;
+        }
+        .right h2 {
+            font-size: 28px;
+            margin: 20px 0;
+        }
+        .right p {
+            font-size: 16px;
+        }
+    </style>
 </head>
 <body>
-    <div class="wrap"><!--父元素-->
-        <div class="left"></div>
-        <div class="right"></div>
-    </div><!--wrap-->
-    <Head>0000</Head><br>
-    <context>很抱歉，您的頁面正在等待中。</context><br>
-    <img src="web_poto/f7a65105f1fb7930099b0dac814dc9b7.jpg"  width="20%"  height="20%" alt="等待中">
-
-
+<div class="left">
+    <h1>很抱歉，您的頁面正在等待中。</h1>
+    <img src="web_poto/f7a65105f1fb7930099b0dac814dc9b7.jpg" alt="等待中">
+</div>
+<div class="right">
+    <img src="web_poto/YTP_logo_social_1200x630.png" alt="YouTube Premium">
+    <h2>盡享 YouTube，不受干擾。</h2>
+    <p>瞭解更多</p>
+</div>
 </body>
 </html>
